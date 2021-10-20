@@ -3,11 +3,8 @@
 * Due: 10/26/2021, 6pm CDT
 * Work within the repo "https://github.com/bms5213-F2021/hw1-ind-yourgithubusername" and upload your finished assignment there.
 * Please read the paper [Characterizing mutagenic effects of recombination through a sequence-level genetic map](https://raw.githubusercontent.com/bms5213-F2021/bms5213-F2021.github.io/master/docs/resourcedev/papers/dnm_halldorsson.pdf)
-<<<<<<< HEAD
 * The 10/19/2021 lecture will cover enough material only for Questions 1 and 2 and enough to start Questions 5 and 6.
-=======
-* The 10/19/2021 lecture will cover enough material only for Questions 1 and 2.
->>>>>>> ce3a11b5f573b70db4f71fe926c0a000a3abc815
+
 
 ## Question 1 (0.5 pts)
 
@@ -30,19 +27,11 @@ Imagine that we as a course decide to collect data on the amount of coffee that 
 1. Suppose we set up a booth in the middle of the Lipscomb campus and have a large sign with a picture of a travel coffee mug. Respondents then voluntarily approach us and we ask them how many cups of coffee they consume daily as well as a few demographic questions.
   * Do you think the data analytic question is specific enough given the proposed sampling scheme? If not, how would you increase the specificity of the question?
   * What biases will result from the proposed question and sampling scheme?
-<<<<<<< HEAD
 2. Propose a data sampling approach that minimizes biases in the data and better matches the stated question. Are there any biases you can't eliminate?
 
 ## Question 5 -- Summary Statistics in R (0.75 pts)
 
 Using the tidied data `dnm_by_age_tidy_Halldorsson.csv`, find and report summary statistics for each of the last 5 columns/variables. The absolute minimum set of summary stats which you should find include the range, the average, the variance, the standard deviation, and the median. If the average and the median differ, why do they differ?  
-=======
-1. Propose a data sampling approach that minimizes biases in the data and better matches the stated question. Are there any biases you can't eliminate?
-
-## Question 5 -- Summary Statistics in R (0.75 pts)
-
-Using the tidied data `dnm_by_age_tidy_Halldorsson.csv`, find summary statistics for each of the last 4 columns/variables. Summary stats which you should find include the average, the variance, the standard deviation, and the median. If the average and the median differ, why do they differ?  
->>>>>>> ce3a11b5f573b70db4f71fe926c0a000a3abc815
 
 You can read the data into R using the following line of code:
 
@@ -52,10 +41,7 @@ dnm_data <- read.csv("https://raw.githubusercontent.com/bms5213-F2021/bms5213-F2
 
 ## Question 6 -- R Plotting Practice (0.75 pts)
 
-<<<<<<< HEAD
+
 Again, using the tidied data `dnm_by_age_tidy_Halldorsson.csv`, explore the provided data, making 5 plots of your choice. (However, please vary the type of plot such that not all 5 plots are histograms). For each plot, describe what your goal was and what you observe in the plot.
-=======
-Again, using the tidied data `dnm_by_age_tidy_Halldorsson.csv`, explore the provided data, making 5 plots of your choice. For each plot, describe what your goal was and what you observe in the plot.
->>>>>>> ce3a11b5f573b70db4f71fe926c0a000a3abc815
 
 Note: Make sure to include your R code, your plots, and your comments/observations in what you upload to your repository.
